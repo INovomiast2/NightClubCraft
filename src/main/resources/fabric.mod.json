@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nightclubcraftmod",
+	"version": "${version}",
+	"name": "NightClubCraft",
+	"description": "Un mod que transforma Minecraft en una experiencia de vida nocturna y gestión de clubes",
+	"authors": [
+		"ivnovomi"
+	],
+	"contact": {
+		"homepage": "https://github.com/ivnovomi/nightclubcraft",
+		"sources": "https://github.com/ivnovomi/nightclubcraft"
+	},
+	"license": "MIT",
+	"icon": "assets/nightclubcraftmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"nightclubcraftmod.NightClubCraftMod"
+		],
+		"fabric-datagen": [
+			"nightclubcraftmod.NightClubCraftModDataGenerator"
+		],
+		"modmenu": [
+			"nightclubcraftmod.client.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"nightclubcraftmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": ">=7.2.2"
+	}
+}
