@@ -18,6 +18,9 @@
 		"main": [
 			"nightclubcraftmod.NightClubCraftMod"
 		],
+		"client": [
+			"nightclubcraftmod.NightClubCraftModClient"
+		],
 		"fabric-datagen": [
 			"nightclubcraftmod.NightClubCraftModDataGenerator"
 		],

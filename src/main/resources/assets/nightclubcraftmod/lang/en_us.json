@@ -1,0 +1,14 @@
+{
+  "item.nightclubcraftmod.development_stick": "Development Stick",
+  "block.nightclubcraftmod.plot_control_block": "Plot Control Block",
+  "block.nightclubcraftmod.plot_fence": "Plot Fence",
+  
+  "plot.type.empty": "Empty",
+  "plot.type.custom_build": "Custom Build",
+  "plot.type.template_build": "Template Build",
+  
+  "plot.status.claimed": "Claimed",
+  "plot.status.under_construction": "Under Construction",
+  "plot.status.completed": "Completed",
+  "plot.status.abandoned": "Abandoned"
+} 

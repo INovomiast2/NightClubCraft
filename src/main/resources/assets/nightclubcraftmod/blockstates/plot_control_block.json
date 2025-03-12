@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,outline_visible=false": { "model": "nightclubcraftmod:block/plot_control_block" },
+    "facing=east,outline_visible=false": { "model": "nightclubcraftmod:block/plot_control_block", "y": 90 },
+    "facing=south,outline_visible=false": { "model": "nightclubcraftmod:block/plot_control_block", "y": 180 },
+    "facing=west,outline_visible=false": { "model": "nightclubcraftmod:block/plot_control_block", "y": 270 },
+    
+    "facing=north,outline_visible=true": { "model": "nightclubcraftmod:block/plot_control_block_active" },
+    "facing=east,outline_visible=true": { "model": "nightclubcraftmod:block/plot_control_block_active", "y": 90 },
+    "facing=south,outline_visible=true": { "model": "nightclubcraftmod:block/plot_control_block_active", "y": 180 },
+    "facing=west,outline_visible=true": { "model": "nightclubcraftmod:block/plot_control_block_active", "y": 270 }
+  }
+} 

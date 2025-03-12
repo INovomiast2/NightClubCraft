@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,half=lower": {
+      "model": "nightclubcraftmod:block/modern_light_pole_lower"
+    },
+    "facing=east,half=lower": {
+      "model": "nightclubcraftmod:block/modern_light_pole_lower",
+      "y": 90
+    },
+    "facing=south,half=lower": {
+      "model": "nightclubcraftmod:block/modern_light_pole_lower",
+      "y": 180
+    },
+    "facing=west,half=lower": {
+      "model": "nightclubcraftmod:block/modern_light_pole_lower",
+      "y": 270
+    },
+    "facing=north,half=upper": {
+      "model": "nightclubcraftmod:block/modern_light_pole_upper"
+    },
+    "facing=east,half=upper": {
+      "model": "nightclubcraftmod:block/modern_light_pole_upper",
+      "y": 90
+    },
+    "facing=south,half=upper": {
+      "model": "nightclubcraftmod:block/modern_light_pole_upper",
+      "y": 180
+    },
+    "facing=west,half=upper": {
+      "model": "nightclubcraftmod:block/modern_light_pole_upper",
+      "y": 270
+    }
+  }
+} 

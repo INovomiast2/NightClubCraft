@@ -1,9 +1,18 @@
 package nightclubcraftmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import nightclubcraftmod.registry.ModBlockEntities;
+import nightclubcraftmod.registry.ModBlocks;
+import nightclubcraftmod.registry.ModCommands;
+import nightclubcraftmod.registry.ModEvents;
+import nightclubcraftmod.registry.ModItems;
+import nightclubcraftmod.network.ClientNetworking;
+import nightclubcraftmod.network.ServerNetworking;
 
 /**
  * Clase principal del mod NightClubCraft.
@@ -28,15 +37,32 @@ public class NightClubCraftMod implements ModInitializer {
 		LOGGER.info("Inicializando {} {}", MOD_NAME, MOD_VERSION);
 		LOGGER.info("¡Que comience la fiesta! Let the party begin!");
 		
-		// Aquí se registrarán los bloques, ítems, entidades, etc. del mod
+		// Registrar el contenido del mod
 		registerContent();
+		
+		// Inicializar networking del servidor
+		ServerNetworking.init();
 	}
 	
 	/**
 	 * Registra todo el contenido del mod.
 	 */
 	private void registerContent() {
-		// Por ahora no hay contenido que registrar
-		// En el futuro, aquí se registrarán los bloques, ítems, entidades, etc.
+		// Registrar bloques
+		ModBlocks.register();
+		
+		// Registrar entidades de bloque
+		ModBlockEntities.register();
+		
+		// Registrar items
+		ModItems.register();
+		
+		// Registrar eventos
+		ModEvents.register();
+		
+		// Registrar comandos
+		ModCommands.register();
+		
+		LOGGER.info("Contenido del mod registrado con éxito");
 	}
 }

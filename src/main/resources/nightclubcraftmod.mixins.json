@@ -5,7 +5,9 @@
 	"mixins": [
 	],
 	"client": [
-		"TitleScreenMixin"
+		"TitleScreenMixin",
+		"MouseScrollMixin",
+		"WorldRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

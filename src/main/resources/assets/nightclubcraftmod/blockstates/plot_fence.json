@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "nightclubcraftmod:block/plot_fence_direct" },
+    "facing=east": { "model": "nightclubcraftmod:block/plot_fence_direct", "y": 90 },
+    "facing=south": { "model": "nightclubcraftmod:block/plot_fence_direct", "y": 180 },
+    "facing=west": { "model": "nightclubcraftmod:block/plot_fence_direct", "y": 270 }
+  }
+} 

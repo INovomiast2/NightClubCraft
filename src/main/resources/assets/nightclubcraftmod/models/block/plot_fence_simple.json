@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/thin_block",
+  "textures": {
+    "particle": "minecraft:block/iron_bars",
+    "texture": "minecraft:block/iron_bars"
+  }
+} 

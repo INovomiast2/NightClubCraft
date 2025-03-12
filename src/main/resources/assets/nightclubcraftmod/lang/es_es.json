@@ -1,0 +1,14 @@
+{
+  "item.nightclubcraftmod.development_stick": "Vara de Desarrollo",
+  "block.nightclubcraftmod.plot_control_block": "Bloque de Control de Plot",
+  "block.nightclubcraftmod.plot_fence": "Valla de Plot",
+  
+  "plot.type.empty": "Vacío",
+  "plot.type.custom_build": "Construcción Personalizada",
+  "plot.type.template_build": "Construcción con Plantilla",
+  
+  "plot.status.claimed": "Reclamado",
+  "plot.status.under_construction": "En Construcción",
+  "plot.status.completed": "Completado",
+  "plot.status.abandoned": "Abandonado"
+} 
